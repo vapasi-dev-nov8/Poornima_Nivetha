@@ -2,27 +2,19 @@ package com.geometryshapes;
 
 public class Rectangle {
 
-    double length;
-    double breadth;
+    private double length;
+    private double breadth;
 
-    public double getLength() {
-        return length;
-    }
-
-    public void setLength(double length) {
+    public Rectangle(double length, double breadth) {
         this.length = length;
-    }
-
-    public double getBreadth() {
-        return breadth;
-    }
-
-    public void setBreadth(double breadth) {
         this.breadth = breadth;
     }
 
     public double area() {
-        double area = this.length * this.breadth ;
-        return  area;
+        return this.length * this.breadth;
+    }
+
+    public double perimeter() {
+        return 2 * (this.length + this.breadth);
     }
 }
