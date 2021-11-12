@@ -14,9 +14,9 @@ public class RectangleTest {
     @ParameterizedTest
     @MethodSource("provideLengthBreadthAndArea")
     public void findAreaOfRectangle(double length, double breadth, double expectedArea) {
-        Rectangle rectangle = new Rectangle(length,breadth);
+        Rectangle rectangle = new Rectangle(length, breadth);
         double actualArea = rectangle.area();
-        assertEquals(expectedArea,actualArea);
+        assertEquals(expectedArea, actualArea);
     }
 
     private static Stream<Arguments> provideLengthBreadthAndArea() {
@@ -31,10 +31,10 @@ public class RectangleTest {
 
     @ParameterizedTest
     @MethodSource("provideLengthBreadthAndPerimeter")
-    public void findPerimeterOfRectangle(double length, double breadth, double expectedPerimeter){
-        Rectangle rectangle = new Rectangle(length,breadth);
+    public void findPerimeterOfRectangle(double length, double breadth, double expectedPerimeter) {
+        Rectangle rectangle = new Rectangle(length, breadth);
         double actualPerimeter = rectangle.perimeter();
-        assertEquals(expectedPerimeter,actualPerimeter);
+        assertEquals(expectedPerimeter, actualPerimeter);
 
     }
 
