@@ -2,11 +2,27 @@ package com.geometryshapes;
 
 public class Rectangle {
 
+    double length;
+    double breadth;
 
+    public double getLength() {
+        return length;
+    }
 
-    public static int findArea(int length,int breadth) {
+    public void setLength(double length) {
+        this.length = length;
+    }
 
-        int area = length * breadth ;
+    public double getBreadth() {
+        return breadth;
+    }
+
+    public void setBreadth(double breadth) {
+        this.breadth = breadth;
+    }
+
+    public double area() {
+        double area = this.length * this.breadth ;
         return  area;
     }
 }
