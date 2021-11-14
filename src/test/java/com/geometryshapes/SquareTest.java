@@ -8,7 +8,12 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/*
+ * Contains test cases for Square
+ *
+ * */
 public class SquareTest {
+
 
     @ParameterizedTest
     @MethodSource("provideSideAndArea")

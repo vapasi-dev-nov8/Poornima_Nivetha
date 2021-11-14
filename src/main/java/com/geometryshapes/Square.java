@@ -7,10 +7,18 @@ public class Square {
         this.side = side;
     }
 
+    /*
+     * Method calculates the area
+     *
+     * */
     public double area() {
-        return 2 * this.side;
+        return this.side * this.side;
     }
 
+    /*
+     * Method calculates the perimeter
+     *
+     * */
     public double perimeter() {
         return 4 * this.side;
     }

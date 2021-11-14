@@ -8,7 +8,10 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+/*
+ * Contains test cases for Rectangle
+ *
+ * */
 public class RectangleTest {
 
     @ParameterizedTest

@@ -10,10 +10,18 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
+    /*
+    * Method calculates the area
+    *
+    * */
     public double area() {
         return this.length * this.breadth;
     }
 
+    /*
+     * Method calculates the perimeter
+     *
+     * */
     public double perimeter() {
         return 2 * (this.length + this.breadth);
     }
